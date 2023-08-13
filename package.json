@@ -22,7 +22,7 @@
     "nonGlobalStepDefinitions": true,
     "json": {
       "enabled": true,
-      "output": "cucumber.json"
+      "output": "target/cucumber.json"
     },
     "stepDefinitions": [
       "cypress/integration/examples/BDD/stepdef/*.js"
