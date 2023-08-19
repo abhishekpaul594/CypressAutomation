@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "node_modules\\.bin\\cypress run",
-    "headTest": "npm run test -- --headed"
+    "headTest": "npm run test -- --headed",
+    "regression":"cypress run --env tags=\"@regression\" --headed --browser chrome",
+    "smoke":"cypress run --env tags=\"@smoke\" --headed --browser chrome"
   },
   "author": "",
   "license": "ISC",
